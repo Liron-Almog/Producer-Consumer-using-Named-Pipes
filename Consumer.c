@@ -24,7 +24,7 @@ int main() {
 
 	return(EXIT_SUCCESS) ;
 }
-//The function read The numbers using named pipe
+//The function reads The numbers using named pipe
 //-------read_number------------
 void read_numbers( FILE *file){
 
@@ -36,7 +36,7 @@ void read_numbers( FILE *file){
 	fclose(file);
 	print_array(array);
 }
-//The function print the numbers that came from the manufacturer
+//The function prints the numbers that came from the manufacturer
 //------print_array-----------
 void print_array(int array[]){
 
